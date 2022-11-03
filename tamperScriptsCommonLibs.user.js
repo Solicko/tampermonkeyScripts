@@ -20,3 +20,15 @@ function hideAllByClassName(classnames) {
 	});
     });
 }
+
+function hideFirstByClassname(classOnes) {
+    classOnes.forEach(function (item, index) {
+        var elm;
+        if (elm = document.getElementsByClassName(item)) {
+            if (elm.length > 0) {
+                hide(elm[0]);
+            }
+        }
+    });
+}
+ 
