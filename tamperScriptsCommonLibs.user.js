@@ -17,6 +17,6 @@ function hideAllByClassName(classnames) {
     classnames.forEach(function (classname, index) {
 	Array.from(document.getElementsByClassName(classname)).forEach(function (item, index2) {
 		hide(item);
-	}
+	)};
     });
 }
