@@ -4,7 +4,7 @@ function hide(elm) {
     }
 }
 
-function hideAllIds(ids) {
+function hideAllById(ids) {
     ids.forEach(function (item, index) {
         var elm;
         if (elm = document.getElementById(item)) {
