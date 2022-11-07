@@ -1,3 +1,7 @@
+var script = document.createElement('script');
+script.src = 'https://code.jquery.com/jquery-3.6.1.min.js';
+document.getElementsByTagName('head')[0].appendChild(script);
+
 function hide(elm) {
     if (elm) {
         elm.style.display="none";
